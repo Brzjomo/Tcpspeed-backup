@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn" lang="zh-cn" dir="ltr">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	  <meta charset="utf-8" />
+  <meta name="author" content="Super User" />
+  <meta name="description" content="1.服务端不支持openvz虚拟机架构,其他架构均支持.
+
+2.windosw客户端不兼容锐速,停止锐速后可以正常运行.
+
+3.win8,win10用户如果无法正常使用,请右键以管理员身份运行,能解决大部分问题." />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>常见问题处理,必读!</title>
+  <link href="http://www.tcpspeed.co/component/search/?Itemid=123&amp;format=opensearch" rel="search" title="搜索 TCPSpeed" type="application/opensearchdescription+xml" />
+  <link rel="stylesheet" href="/Tcpspeed/template.css" />
+  <style type="text/css">
+div.mod_search87 input[type="search"]{ width:auto; }
+  </style>
+  <script src="/media/jui/js/jquery.min.js"></script>
+  <script src="/media/jui/js/jquery-noconflict.js"></script>
+  <script src="/media/jui/js/jquery-migrate.min.js"></script>
+  <script src="/media/system/js/caption.js"></script>
+  <script src="/media/jui/js/bootstrap.min.js"></script>
+  <script src="/templates/protostar/js/template.js"></script>
+  <script src="/media/system/js/html5fallback.js"></script>
+  <script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});jQuery(document).ready(function(){
+	jQuery('.hasTooltip').tooltip({"html": true,"container": "body"});
+});
+  </script>
+
+					<style type="text/css">
+		body.site
+		{
+			border-top: 3px solid #0088cc;
+			background-color: #f4f6f7		}
+		//a
+		{
+			color: #0088cc;
+		}//
+		.nav-list > .active > a, .nav-list > .active > a:hover, .dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover, .nav-pills > .active > a, .nav-pills > .active > a:hover,
+		.btn-primary
+		{
+			background: #0088cc;
+		}
+	</style>
+		<!--[if lt IE 9]>
+		<script src="/media/jui/js/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body class="site com_content view-article no-layout no-task itemid-123">
+
+	<!-- Body -->
+	<div class="body">
+		<div class="container">
+			<!-- Header -->
+			<header class="header" role="banner">
+				<div class="header-inner clearfix">
+					<a class="brand pull-left" href="/">
+						<span class="site-title" title="TCPSpeed">TCPSpeed</span>													<div class="site-description">最快的双边TCP加速软件</div>											</a>
+					<div class="header-search pull-right">
+						<div class="search mod_search87">
+	<form action="/question.html" method="post" class="form-inline">
+		<label for="mod-search-searchword" class="element-invisible">搜索...</label> <input name="searchword" id="mod-search-searchword" maxlength="200"  class="inputbox search-query" type="search" size="20" placeholder="搜索..." />		<input type="hidden" name="task" value="search" />
+		<input type="hidden" name="option" value="com_search" />
+		<input type="hidden" name="Itemid" value="123" />
+	</form>
+</div>
+
+					</div>
+				</div>
+			</header>
+							<nav class="navigation" role="navigation">
+					<div class="navbar pull-left">
+						<a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</a>
+					</div>
+					<div class="nav-collapse">
+						<ul class="nav menu nav-pills">
+<li class="item-101"><a class="able" href="/Tcpspeed/首页.html" >首页</a></li><li class="item-123 current active"><a href="/Tcpspeed/常见问题.html" >常见问题处理,必读!</a></li><li class="item-121"><a href="#" >获取服务器授权</a></li><li class="item-117"><a href="#" >行业新闻</a></li><li class="item-120"><a class="able" href="http://pxs.wn1998.com:8080/xs/manage/accountinfo.jsp" target="_blank" >登录</a></li><li class="item-119"><a href="#" >注册</a></li></ul>
+
+					</div>
+				</nav>
+						
+			<div class="row-fluid">
+								<main id="content" role="main" class="span9">
+					<!-- Begin Content -->
+							<div class="moduletable">
+						
+
+<div class="custom"  >
+	<p><img src="http://www.dkys.org/images/speed.jpg" alt="" width="706" height="107" /></p></div>
+		</div>
+	
+					<div id="system-message-container">
+	</div>
+
+					<div class="item-page" itemscope itemtype="https://schema.org/Article">
+	<meta itemprop="inLanguage" content="zh-CN" />
+	
+		
+			<div class="page-header">
+					<h2 itemprop="name">
+				常见问题,持续更新			</h2>
+									</div>
+					
+	
+	
+				
+								<div itemprop="articleBody">
+		
+<p> 1.安装后,如果无法正常使用,请卸载服务端重装,先不要做任何修改,错误修改可能导致连接失败.</p>
+<p>2.tcpspeed是双边加速软件,需要安装服务端和客户端,并按说明使用,否则不会有任何加速效果.</p>
+<p>3.若服务器为openvz架构,客户端只能选择udp协议,其他架构同时支持tcp和udp协议.</p>
+<p>4.openvz的vps只能使用udp协议,很容易被屏蔽,导致连接异常,最好使用kvm vps,选择tcp协议.</p>
+<p><strong>5.如果连接失败或不稳定,请切换udp或tcp协议.</strong></p>
+<p>6.客户端如果无法输入文字,请先关闭输入法.</p>
+<p>7.tcpspeed不支持finalspeed的服务端和客户端.</p>
+<p>8.bwg之类严重超售vps,如果已经运行fs,请停止fs后再启动tcpspeed,如果频繁出错,请重启vps,或者更换vps提供商.</p>
+<p>9.tcpspeed客户端暂时无法在路由器和手机上运行,建议安装在win平板,小主机,树莓派或者nas上,通过局域网进行共享.</p>
+<p>假设运行tcpspeed客户端的电脑ip为A,socks5端口为1083,那么需要加速的设备socks5代理设置为A:1083.</p>
+<p>10.服务端免费体验5天,试用不需注册,无需激活码,更换ip,重装系统,更换服务器只需用原激活码重新激活.</p>
+<p>11.fs转移到tcpspeed的用户可直接使用tcpspeed客户端的socks5端口,无需设置加速列表和第三方代理.</p>
+<p>12.客户端无法选择tcp协议,win下右键以管护理员身份运行,os x和linux 加sudo执行,如果仍然无法开启,请关闭surge和其它防火墙,代理软件.</p>
+<p>13.tcpspeed udp协议已经支持ipv6,但tcp还不支持.</p>
+<p>首先客户端协议选择udp,然后服务器地址输入正确的ipv6地址,格式为 [ipv6地址] ,比如 [2600:3c01::f03c:91ff:fe73:4af4]</p>
+<p>如果自定义端口号,格式为 [ipv6地址]:端口号,比如[2600:3c01::f03c:91ff:fe73:4af4]:8080 <br /> </p>
+<p><strong>如果依然无法正常使用,可尝试以下方法:</strong></p>
+<p>1.客户端切换传输协议,如果为openvz无法使用tcp,请更换为kvm架构的vps.</p>
+<p>2.重启服务端,客户端.</p>
+<p>3.重启电脑,服务器,路由器.</p>
+<p>4.关闭所有杀毒,安全软件,关闭代理,vpn软件.</p>
+<p>5.卸载重新安装,使用默认设置.</p>
+<p>6.os x下关闭surge,surge会拦截网络流量.</p>
+<p>7.调小物理带宽,一些宽带运营商会限制国际出口速度,访问国外的带宽比国内小很多,设置带宽偏高会造成丢包和不稳定.</p>
+<p>8.<strong>修改服务端端口,建议为80,443等常用端口,同时客户端登录地址修改为:   服务器ip:端口号 ,可解决部分断流,不稳定问题.</strong></p>
+<p> </p>	</div>
+
+	
+	
+<ul class="pager pagenav">
+	<li class="previous">
+		<a href="#" rel="prev">
+			<span class="icon-chevron-left"></span> 上页		</a>
+	</li>
+</ul>
+							</div>
+
+					
+<ul itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb">
+			<li>
+			当前位置：&#160;
+		</li>
+	
+				<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+									<a itemprop="item" href="/Tcpspeed/首页.html" class="pathway"><span itemprop="name">首页</span></a>
+				
+									<span class="divider">
+						<img src="/media/system/images/arrow.png" alt="" />					</span>
+								<meta itemprop="position" content="1">
+			</li>
+					<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="active">
+				<span itemprop="name">
+					常见问题处理,必读!				</span>
+				<meta itemprop="position" content="2">
+			</li>
+		</ul>
+
+					<!-- End Content -->
+				</main>
+									<div id="aside" class="span3">
+						<!-- Begin Right Sidebar -->
+						<div class="well ">
+
+<div class="custom"  >
+	<p class="article-title"><a href="#">免费内网端口映射下载,可添加多个映射,高速国内线路</a></p></div>
+</div><div class="well "><h3 class="page-header">联系</h3>
+
+<div class="custom"  >
+	<p>有问题请留言,开门见山,提问前请仔细阅读网站说明,教程,并尝试解决.<br />QQ 3260459587</p></div>
+</div><div class="well "><h3 class="page-header">高速数据传输</h3><ul class="mostread">
+	<li itemscope itemtype="https://schema.org/Article">
+		<a href="#" itemprop="url">
+			<span itemprop="name">
+				Ftrans飞驰传输,大数据传输—一个跨国零售业集团IT部门经理的烦恼			</span>
+		</a>
+	</li>
+	<li itemscope itemtype="https://schema.org/Article">
+		<a href="#" itemprop="url">
+			<span itemprop="name">
+				国际专线IPLC			</span>
+		</a>
+	</li>
+	<li itemscope itemtype="https://schema.org/Article">
+		<a href="#" itemprop="url">
+			<span itemprop="name">
+				上海鹏博士政企环球快线业务			</span>
+		</a>
+	</li>
+	<li itemscope itemtype="https://schema.org/Article">
+		<a href="#" itemprop="url">
+			<span itemprop="name">
+				数据网络 大数据时代的数据传输网设计原理及应对之道			</span>
+		</a>
+	</li>
+	<li itemscope itemtype="https://schema.org/Article">
+		<a href="#" itemprop="url">
+			<span itemprop="name">
+				浅谈跨国网络传输			</span>
+		</a>
+	</li>
+	<li itemscope itemtype="https://schema.org/Article">
+		<a href="#" itemprop="url">
+			<span itemprop="name">
+				蓝汛与Aspera达成战略合作提供高效文件传输服务			</span>
+		</a>
+	</li>
+	<li itemscope itemtype="https://schema.org/Article">
+		<a href="#" itemprop="url">
+			<span itemprop="name">
+				凌锐蓝信亮科博会直击跨国企业数据传输			</span>
+		</a>
+	</li>
+	<li itemscope itemtype="https://schema.org/Article">
+		<a href="#" itemprop="url">
+			<span itemprop="name">
+				联想跨国传输 无限拓展海外业务			</span>
+		</a>
+	</li>
+</ul>
+</div>
+						<!-- End Right Sidebar -->
+					</div>
+							</div>
+		</div>
+	</div>
+	<!-- Footer -->
+	<footer class="footer" role="contentinfo">
+		<div class="container">
+			<hr />
+			
+			<p class="pull-right">
+				<a href="#top" id="back-top">
+					返回页顶				</a>
+			</p>
+			<p>
+				&copy; 2017 TCPSpeed				<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260310505'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1260310505' type='text/javascript'%3E%3C/script%3E"));</script>
+			</p>
+		</div>
+	</footer>
+	
+</body>
+</html>
