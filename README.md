@@ -8,7 +8,9 @@ Tcpspeed网站暂时关闭了，部署教程也随之消失。这是用Google快
 
 ### 使用
 
-把Tcpspeed文件夹放在根目录，然后打开其中的“首页.html”，按教程操作。
+1.首先打包成zip下载，然后解压。
+2.重命名文件夹为Tcpspeed。
+3.把Tcpspeed文件夹放在根目录，然后打开其中的“首页.html”，按教程操作。
 
     比如“ D:\Tcpspeed ”
 
